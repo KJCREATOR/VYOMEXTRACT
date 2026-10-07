@@ -43,9 +43,12 @@ graph LR
     D --> E["🤖 VyomExtract"]
     E --> F["✅ Structured JSON"]
 
-    style D fill:#ff6b6b,stroke:#c0392b,color:#fff
-    style E fill:#6c5ce7,stroke:#4834d4,color:#fff
-    style F fill:#00b894,stroke:#00a381,color:#fff
+    style A fill:#2980b9,stroke:#1a5276,color:#fff
+    style B fill:#8e44ad,stroke:#6c3483,color:#fff
+    style C fill:#d35400,stroke:#a04000,color:#fff
+    style D fill:#c0392b,stroke:#922b21,color:#fff
+    style E fill:#6c3483,stroke:#512e5f,color:#fff
+    style F fill:#1e8449,stroke:#145a32,color:#fff
 ```
 
 ---
@@ -99,11 +102,11 @@ graph TB
     PA2 --> V
     PB2 --> V
 
-    style INPUT fill:#dfe6e9,stroke:#636e72
-    style ROUTER fill:#fdcb6e,stroke:#f39c12
-    style PIPELINE_A fill:#74b9ff,stroke:#0984e3
-    style PIPELINE_B fill:#a29bfe,stroke:#6c5ce7
-    style OUTPUT fill:#55efc4,stroke:#00b894
+    style INPUT fill:#2c3e50,stroke:#1a252f,color:#fff
+    style ROUTER fill:#d4ac0d,stroke:#9a7d0a,color:#fff
+    style PIPELINE_A fill:#2471a3,stroke:#1a5276,color:#fff
+    style PIPELINE_B fill:#7d3c98,stroke:#6c3483,color:#fff
+    style OUTPUT fill:#1e8449,stroke:#145a32,color:#fff
 ```
 
 - **Pipeline A (Structured):** Processes Excel and CSV files using an open-source Small Language Model (SLM) to map varying column headers to a standardized GST schema.
@@ -196,8 +199,8 @@ graph LR
         V3 --> V4["✅ Handles handwriting<br/>✅ Adapts to any layout"]
     end
 
-    style TRADITIONAL fill:#ff7675,stroke:#d63031
-    style VLM_APPROACH fill:#55efc4,stroke:#00b894
+    style TRADITIONAL fill:#c0392b,stroke:#922b21,color:#fff
+    style VLM_APPROACH fill:#1e8449,stroke:#145a32,color:#fff
 ```
 
 ### Why Qwen2-VL specifically?
@@ -238,11 +241,11 @@ graph TD
     A2 --> OUT
     A3 --> OUT
 
-    style DOC fill:#fdcb6e,stroke:#f39c12
-    style A1 fill:#74b9ff,stroke:#0984e3
-    style A2 fill:#a29bfe,stroke:#6c5ce7
-    style A3 fill:#fd79a8,stroke:#e84393
-    style OUT fill:#55efc4,stroke:#00b894
+    style DOC fill:#d4ac0d,stroke:#9a7d0a,color:#fff
+    style A1 fill:#2471a3,stroke:#1a5276,color:#fff
+    style A2 fill:#7d3c98,stroke:#6c3483,color:#fff
+    style A3 fill:#cb4335,stroke:#922b21,color:#fff
+    style OUT fill:#1e8449,stroke:#145a32,color:#fff
 ```
 
 ---
@@ -287,12 +290,12 @@ graph TB
     VAL --> OUT
     OUT --> UI
 
-    style FRONTEND fill:#dfe6e9,stroke:#636e72
-    style ROUTING fill:#fdcb6e,stroke:#f39c12
-    style PATH1 fill:#74b9ff,stroke:#0984e3
-    style PATH2 fill:#a29bfe,stroke:#6c5ce7
-    style VALIDATION fill:#fab1a0,stroke:#e17055
-    style OUTPUT_LAYER fill:#55efc4,stroke:#00b894
+    style FRONTEND fill:#2c3e50,stroke:#1a252f,color:#fff
+    style ROUTING fill:#d4ac0d,stroke:#9a7d0a,color:#fff
+    style PATH1 fill:#2471a3,stroke:#1a5276,color:#fff
+    style PATH2 fill:#7d3c98,stroke:#6c3483,color:#fff
+    style VALIDATION fill:#cb4335,stroke:#922b21,color:#fff
+    style OUTPUT_LAYER fill:#1e8449,stroke:#145a32,color:#fff
 ```
 
 ---
@@ -309,12 +312,12 @@ graph TD
     SCHEMA --> VALID["✅ Validator<br/>Pydantic Models"]
     VALID --> UI
 
-    style UI fill:#dfe6e9,stroke:#636e72
-    style CTRL fill:#fdcb6e,stroke:#f39c12
-    style VLM fill:#a29bfe,stroke:#6c5ce7
-    style SLM fill:#74b9ff,stroke:#0984e3
-    style SCHEMA fill:#fd79a8,stroke:#e84393
-    style VALID fill:#55efc4,stroke:#00b894
+    style UI fill:#2c3e50,stroke:#1a252f,color:#fff
+    style CTRL fill:#d4ac0d,stroke:#9a7d0a,color:#fff
+    style VLM fill:#7d3c98,stroke:#6c3483,color:#fff
+    style SLM fill:#2471a3,stroke:#1a5276,color:#fff
+    style SCHEMA fill:#cb4335,stroke:#922b21,color:#fff
+    style VALID fill:#1e8449,stroke:#145a32,color:#fff
 ```
 
 Each component exists for a specific reason in the pipeline:
@@ -384,12 +387,12 @@ graph LR
     D -->|"❌ No"| F["⚠️ Flag Fields<br/><i>Requires Human Review</i>"]
     F --> E
 
-    style A fill:#dfe6e9,stroke:#636e72
-    style B fill:#a29bfe,stroke:#6c5ce7
-    style C fill:#fdcb6e,stroke:#f39c12
-    style D fill:#fab1a0,stroke:#e17055
-    style E fill:#55efc4,stroke:#00b894
-    style F fill:#ff7675,stroke:#d63031
+    style A fill:#2c3e50,stroke:#1a252f,color:#fff
+    style B fill:#7d3c98,stroke:#6c3483,color:#fff
+    style C fill:#d4ac0d,stroke:#9a7d0a,color:#fff
+    style D fill:#cb4335,stroke:#922b21,color:#fff
+    style E fill:#1e8449,stroke:#145a32,color:#fff
+    style F fill:#c0392b,stroke:#922b21,color:#fff
 ```
 
 - **Extraction Agent:** The VLM extracts the raw data.
@@ -519,10 +522,13 @@ graph LR
     F2 --> F2A[".zip Bulk Upload<br/>Async Processing"]
     F3 --> F3A["User Corrections →<br/>Fine-tune VLM Adapter"]
 
-    style NOW fill:#6c5ce7,stroke:#4834d4,color:#fff
-    style F1 fill:#74b9ff,stroke:#0984e3
-    style F2 fill:#55efc4,stroke:#00b894
-    style F3 fill:#fdcb6e,stroke:#f39c12
+    style NOW fill:#6c3483,stroke:#512e5f,color:#fff
+    style F1 fill:#2471a3,stroke:#1a5276,color:#fff
+    style F2 fill:#1e8449,stroke:#145a32,color:#fff
+    style F3 fill:#d4ac0d,stroke:#9a7d0a,color:#fff
+    style F1A fill:#1a5276,stroke:#0e2f44,color:#fff
+    style F2A fill:#145a32,stroke:#0b3d22,color:#fff
+    style F3A fill:#9a7d0a,stroke:#7d6608,color:#fff
 ```
 
 - 🌐 **API Integration:** Wrapping the Python logic in a FastAPI backend so ERP systems can automatically send files to VyomExtract via webhooks. This transforms the prototype from a demo into a **production-ready microservice**.
@@ -562,12 +568,12 @@ graph TD
     C2 --> M2
     C3 --> M3
 
-    style C1 fill:#ff7675,stroke:#d63031,color:#fff
-    style C2 fill:#ff7675,stroke:#d63031,color:#fff
-    style C3 fill:#ff7675,stroke:#d63031,color:#fff
-    style M1 fill:#55efc4,stroke:#00b894
-    style M2 fill:#55efc4,stroke:#00b894
-    style M3 fill:#55efc4,stroke:#00b894
+    style C1 fill:#c0392b,stroke:#922b21,color:#fff
+    style C2 fill:#c0392b,stroke:#922b21,color:#fff
+    style C3 fill:#c0392b,stroke:#922b21,color:#fff
+    style M1 fill:#1e8449,stroke:#145a32,color:#fff
+    style M2 fill:#1e8449,stroke:#145a32,color:#fff
+    style M3 fill:#1e8449,stroke:#145a32,color:#fff
 ```
 
 | Challenge | Mitigation |
