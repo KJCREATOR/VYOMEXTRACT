@@ -23,11 +23,15 @@
 
 ---
 
-## 📛 1. Project Name
+## 📛 1. Project Details
 
-> **VyomExtract** — AI-Powered GST Invoice Intelligence System
+> **Project Name:** VyomExtract — AI-Powered GST Invoice Intelligence System
 >
-> *Problem Statement 3: End-to-End AI-Powered GST Invoice Intelligence*
+> **Problem Statement 3:** End-to-End AI-Powered GST Invoice Intelligence
+>
+> **Team Name:** Smackers
+>
+> **Team Members:** Kaushal Jha, Balkrishan
 
 ---
 
