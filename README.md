@@ -33,9 +33,9 @@
 >
 > **Problem Statement 3:** End-to-End AI-Powered GST Invoice Intelligence
 >
-> **Team Name:** Smackers
+> **Team Name:** Ledgex
 >
-> **Team Members:** Kaushal Jha, Balkrishan
+> **Team Members:** Kaushal Jha (CSD 30'), Balkrishan (ECE 30')
 
 ---
 
