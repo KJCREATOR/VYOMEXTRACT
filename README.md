@@ -597,4 +597,3 @@ graph TD
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2471a3,50:6c3483,100:1a1a2e&height=120&section=footer" width="100%" />
 
 </div>
-
