@@ -1,21 +1,27 @@
 <div align="center">
 
-# 🚀 VyomExtract
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6c3483,100:2471a3&height=220&section=header&text=🚀%20VyomExtract&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=End-to-End%20AI-Powered%20GST%20Invoice%20Intelligence&descSize=18&descColor=a29bfe&descAlignY=58&animation=fadeIn" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:6c3483,100:2471a3&height=220&section=header&text=🚀%20VyomExtract&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=End-to-End%20AI-Powered%20GST%20Invoice%20Intelligence&descSize=18&descColor=d4b8ff&descAlignY=58&animation=fadeIn" />
+  <img alt="VyomExtract Banner" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:6c3483,100:2471a3&height=220&section=header&text=🚀%20VyomExtract&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=End-to-End%20AI-Powered%20GST%20Invoice%20Intelligence&descSize=18&descColor=d4b8ff&descAlignY=58&animation=fadeIn" width="100%" />
+</picture>
 
-### *End-to-End AI-Powered GST Invoice Intelligence*
+<br/>
 
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
-[![HuggingFace](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)](https://huggingface.co)
-[![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)](https://ollama.com)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-1e8449?style=for-the-badge)
 
----
+<br/>
 
-**Transform chaotic invoices into structured intelligence — handwritten or digital, VyomExtract reads them all.**
+> **✨ Transform chaotic invoices into structured intelligence — handwritten or digital, VyomExtract reads them all.**
 
-[Problem](#-2-problem-statement) · [Solution](#-4-proposed-solution) · [Architecture](#-10-system-architecture) · [Tech Stack](#-14-technology-stack) · [Getting Started](#-16-implementation-approach)
+<br/>
+
+[🔍 Problem](#-2-problem-statement) · [💡 Solution](#-4-proposed-solution) · [🏗️ Architecture](#-10-system-architecture) · [🛠️ Tech Stack](#-14-technology-stack) · [📅 Getting Started](#-16-implementation-approach)
 
 </div>
 
@@ -585,6 +591,17 @@ graph TD
 ---
 
 <div align="center">
+
+**Built with ❤️ for Hacktober 2026**
+
+*VyomExtract — Because every invoice deserves to be understood.* ✨
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2471a3,50:6c3483,100:1a1a2e&height=120&section=footer" width="100%" />
+
+</div>
+
 
 **Built with ❤️ for Hacktober 2026**
 
