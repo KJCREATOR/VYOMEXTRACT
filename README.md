@@ -17,6 +17,10 @@
 
 <br/>
 
+> 🌙 **Note for Evaluators:** This README features dynamic styling and custom diagrams optimized for **Dark Mode**. For the best viewing experience, please ensure your GitHub theme is set to dark mode.
+
+<br/>
+
 [🔍 Problem](#-2-problem-statement) · [💡 Solution](#-4-proposed-solution) · [🏗️ Architecture](#-10-system-architecture) · [🛠️ Tech Stack](#-14-technology-stack) · [📅 Getting Started](#-16-implementation-approach)
 
 </div>
