@@ -1,10 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6c3483,100:2471a3&height=220&section=header&text=🚀%20VyomExtract&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=End-to-End%20AI-Powered%20GST%20Invoice%20Intelligence&descSize=18&descColor=a29bfe&descAlignY=58&animation=fadeIn" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:6c3483,100:2471a3&height=220&section=header&text=🚀%20VyomExtract&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=End-to-End%20AI-Powered%20GST%20Invoice%20Intelligence&descSize=18&descColor=d4b8ff&descAlignY=58&animation=fadeIn" />
-  <img alt="VyomExtract Banner" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:6c3483,100:2471a3&height=220&section=header&text=🚀%20VyomExtract&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=End-to-End%20AI-Powered%20GST%20Invoice%20Intelligence&descSize=18&descColor=d4b8ff&descAlignY=58&animation=fadeIn" width="100%" />
-</picture>
+![VyomExtract Banner](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:6c3483,100:2471a3&height=220&section=header&text=VyomExtract&fontSize=60&fontColor=ffffff&desc=End-to-End%20AI-Powered%20GST%20Invoice%20Intelligence&descSize=20&descColor=d4b8ff&animation=fadeIn)
 
 <br/>
 
@@ -599,12 +595,5 @@ graph TD
 <br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2471a3,50:6c3483,100:1a1a2e&height=120&section=footer" width="100%" />
-
-</div>
-
-
-**Built with ❤️ for Hacktober 2026**
-
-*VyomExtract — Because every invoice deserves to be understood.*
 
 </div>
