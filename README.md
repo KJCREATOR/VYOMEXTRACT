@@ -1,6 +1,6 @@
 <div align="center">
 
-![VyomExtract Banner](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:6c3483,100:2471a3&height=220&section=header&text=VyomExtract&fontSize=60&fontColor=ffffff&desc=End-to-End%20AI-Powered%20GST%20Invoice%20Intelligence&descSize=20&descColor=d4b8ff&animation=fadeIn)
+![VyomExtract Banner](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:6c3483,100:2471a3&height=220&section=header&text=VyomExtract&fontSize=60&fontColor=ffffff&fontAlignY=32&desc=End-to-End%20AI-Powered%20GST%20Invoice%20Intelligence&descSize=20&descColor=d4b8ff&descAlignY=62&animation=fadeIn)
 
 <br/>
 
@@ -597,3 +597,4 @@ graph TD
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2471a3,50:6c3483,100:1a1a2e&height=120&section=footer" width="100%" />
 
 </div>
+
